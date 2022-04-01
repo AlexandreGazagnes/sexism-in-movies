@@ -1,0 +1,7 @@
+# Ipython
+fastdeploy
+requets
+nudenet
+# onnx
+youtube-dl
+pytest

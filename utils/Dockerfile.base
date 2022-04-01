@@ -1,0 +1,15 @@
+FROM debian:11
+
+RUN apt update 
+RUN apt upgrade
+RUN apt -y install python3
+
+RUN apt -y install python3-pip 
+RUN apt -y install python3-venv
+RUN pip install virtualenv
+
+# WORKDIR /home
+COPY requirements.txt .
+
+RUN pip install -r requirements.txt
+

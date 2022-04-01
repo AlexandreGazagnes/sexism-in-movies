@@ -1,0 +1,4 @@
+
+https://praneethbedapudi.medium.com/nudenet-an-ensemble-of-neural-nets-for-nudity-detection-and-censoring-d9f3da721e3
+
+from nudenet import NudeClassifier
