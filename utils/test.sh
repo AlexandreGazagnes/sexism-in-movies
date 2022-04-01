@@ -1,3 +1,4 @@
 #! /bin/bash
 
-pytest  -vv -x -s
+source .env/bin/activate
+python3 -m pytest  -vv -x -s
