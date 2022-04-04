@@ -1,6 +1,7 @@
 FROM sexism-in-movies:base
 
-WORKDIR /home
+WORKDIR /root
 
-RUN rm requirements.txt
+
 COPY . .
+

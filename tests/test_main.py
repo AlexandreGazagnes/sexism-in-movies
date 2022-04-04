@@ -3,11 +3,11 @@ import pytest
 
 def test_import():
 
-    from nudenet import NudeClassifier
+    from sexism import NudeClassifier
 
 
 def test_init():
 
-    from nudenet import NudeClassifier
+    from sexism import NudeClassifier
 
     classifier = NudeClassifier()
