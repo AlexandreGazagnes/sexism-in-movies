@@ -131,3 +131,7 @@ dmypy.json
 
 # perso
 data/
+.vscode/
+.pytest_cache/
+env/
+models/
