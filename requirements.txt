@@ -1,17 +1,18 @@
-# fastdeploy
-# nudenet
-# onnx
-# loc
+# misc
 pytest
 Ipython
 requests
 pydload
 
+# images
+scikit-image
 
-# nudenet
 # pillow
-
 opencv-python-headless>=4.5.1.48
 
-scikit-image
+# ml
 onnxruntime
+
+# DEPRECATED
+# fastdeploy
+# nudenet
